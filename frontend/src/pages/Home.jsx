@@ -58,8 +58,7 @@ const Home = () => {
         navigate('/allusers')
     }
 
-    const handleLogout = (e) => {
-        e.preventDefault()
+    const handleLogout = () => {
         localStorage.removeItem('token')
         navigate('/login')
     }
