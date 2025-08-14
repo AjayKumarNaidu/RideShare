@@ -9,7 +9,11 @@ import ReviewRoutes from './routes/ReviewRoutes.js'
 const PORT = 5000
 
 const app = express()
-app.use(cors())
+app.use(cors({
+  origin: ["https://rideshare-frontend-w7e2.onrender.com"], 
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json())
 
 mongoose.connect('mongodb+srv://ajaykumar:ajaykumar@cluster0.ts2bmae.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
