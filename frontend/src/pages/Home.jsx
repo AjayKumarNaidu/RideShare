@@ -59,9 +59,21 @@ const Home = () => {
     }
 
     const handleLogout = () => {
-        localStorage.removeItem('token')
-        navigate('/login')
-    }
+        // Remove auth token
+        localStorage.removeItem('token');
+
+        // Optional: clear any auth-related state
+        // setUser(null); // if you have user state
+
+        // Force menu close if on mobile
+        setIsMenuOpen(false);
+
+        // Navigate to login page
+        navigate('/login');
+
+        // Optional: force a refresh so state resets everywhere
+        window.location.reload();
+    };
 
     const [contactData, setContactData] = useState({
         name: '',
