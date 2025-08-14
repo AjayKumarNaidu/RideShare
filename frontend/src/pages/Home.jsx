@@ -117,7 +117,6 @@ const Home = () => {
 
     const handleMobileLogout = () => {
         console.log('Logging out from mobile...');
-        window.alert('logged out');
         handleLogout();
         setIsMenuOpen(false);
     };

@@ -33,7 +33,6 @@ const Login = () => {
         })
       }else{
         localStorage.setItem('token',newdata.data.message)
-        window.alert('login successful')
         setData({
           email:'',
           password:''
