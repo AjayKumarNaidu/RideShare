@@ -4,7 +4,7 @@ import axios from 'axios'
 
 const EachRidePage = () => {
 
-  const URI = 'http://localhost:5000'
+  const URI = 'https://mapper-11ly.onrender.com'
 
   const navigate = useNavigate();
 

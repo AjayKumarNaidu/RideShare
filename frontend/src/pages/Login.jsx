@@ -4,8 +4,7 @@ import axios from 'axios'
 
 const Login = () => {
 
-  const URI = 'http://localhost:5000'
-
+  const URI = 'https://mapper-11ly.onrender.com'
   const navigate = useNavigate()
   
   //to store the user info

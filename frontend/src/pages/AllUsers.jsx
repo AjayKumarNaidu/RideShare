@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const AllUsers = () => {
 
-  const URI = 'http://localhost:5000'
+  const URI = 'https://mapper-11ly.onrender.com'
 
   const navigate = useNavigate()
 

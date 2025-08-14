@@ -8,7 +8,7 @@ const UserProfile = () => {
 
   const navigate = useNavigate();
   
-    const URI = 'http://localhost:5000'
+    const URI = 'https://mapper-11ly.onrender.com'
   
     //profile user info
     const [user,setUser] = useState({

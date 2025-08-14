@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 
 const Home = () => {
 
-    const URI = 'http://localhost:5000'
+    const URI = 'https://mapper-11ly.onrender.com'
 
     //navigate
     const navigate = useNavigate();
