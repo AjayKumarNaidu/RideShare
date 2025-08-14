@@ -11,7 +11,7 @@ const PORT = 5000
 const app = express()
 app.use(cors({
   origin: ["https://rideshare-frontend-w7e2.onrender.com"], 
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  methods: ["GET", "POST", "PUT", "DELETE","PATCH"],
   credentials: true
 }));
 app.use(express.json())
