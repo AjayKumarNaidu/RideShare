@@ -70,9 +70,6 @@ const Home = () => {
 
         // Navigate to login page
         navigate('/login');
-
-        // Optional: force a refresh so state resets everywhere
-        window.location.reload();
     };
 
     const [contactData, setContactData] = useState({
