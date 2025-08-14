@@ -107,6 +107,13 @@ const Home = () => {
         console.log('email sent :)')
     }
 
+    const handleMobileLogout = () => {
+        console.log('Logging out from mobile...');
+        window.alert('logged out');
+        handleLogout();
+        setIsMenuOpen(false);
+    };
+
     useEffect(() => {
         fetchReviews()
     }, [])
@@ -161,7 +168,7 @@ const Home = () => {
                         <button onClick={() => { handleAllUsers(); setIsMenuOpen(false); }} className="text-lg text-gray-700 hover:text-blue-600 transition duration-300 rounded-lg p-2 hover:bg-gray-100 w-full text-center">All Users</button>
                         <button onClick={() => { handleMyRides(); setIsMenuOpen(false); }} className="text-lg text-gray-700 hover:text-blue-600 transition duration-300 rounded-lg p-2 hover:bg-gray-100 w-full text-center">My Rides</button>
                         <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300 w-full text-center" onClick={() => { navigate('/currentuserprofile'); setIsMenuOpen(false); }}>Profile</button>
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300 w-full text-center" onClick={() => { handleLogout(); setIsMenuOpen(false); }}>Logout</button>
+                        <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300 w-full text-center" onClick={handleMobileLogout}>Logout</button>
                     </div>
                 </div>
             </nav>
