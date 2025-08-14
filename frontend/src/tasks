@@ -1,0 +1,39 @@
+build the home page. done
+connecting login and register page with home. done
+working on offerRide page and backend. done
+working on each ride booking by user. done
+rides in takerides is filtered and displayed. done
+implementing myrides functionality. done
+modifying the database for "Profiles". done
+building the ui for profile page of current user. done
+modifying the backend for rides(adding customers array). done
+handling the reviews part of the users(backend & frontend). done
+work on reviwes for the app. done
+handling user complaints through mail using mailjs. done
+
+
+-->mapping
+add buttons and redirect to maps page. done
+adding "isCompleted" attribute to ride model. done
+
+->ui/ux
+make the page design responsive. done
+
+
+mailjs
+->service_id:service_zwsxlim
+->templte_id for app review:template_99fsilz
+->public_key:xsNydZf23k21qjoEW
+
+
+{
+    "email":"ajay@gmail.com",
+    "source":"guntur",
+    "destination":"viajayawada",
+    "date":"23-06-25",
+    "time":"05:00",
+    "pricePerSeat":100,
+    "vehicleType":"2wheeler",
+    "availableSeats":4,
+    "contactNumber":"232323"
+}
