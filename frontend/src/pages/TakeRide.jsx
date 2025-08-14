@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 const TakeRide = () => {
 
-  const URI = 'https://mapper-11ly.onrender.com'
+  const URI = 'https://rideshare-backend-0tag.onrender.com'
 
   const [currentUser,setCurrentUser] = useState()
 

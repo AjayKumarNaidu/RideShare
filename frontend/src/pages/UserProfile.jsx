@@ -8,7 +8,7 @@ const UserProfile = () => {
 
   const navigate = useNavigate();
   
-    const URI = 'https://mapper-11ly.onrender.com'
+    const URI = 'https://rideshare-backend-0tag.onrender.com'
   
     //profile user info
     const [user,setUser] = useState({

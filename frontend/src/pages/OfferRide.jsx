@@ -8,7 +8,7 @@ const OfferRide = () => {
 
   const [currentUser,setCurrentUser] = useState()
 
-  const URI = 'https://mapper-11ly.onrender.com'
+  const URI = 'https://rideshare-backend-0tag.onrender.com'
   //to get current user email
   //manual way to decode jwt because jwt-decode is not working.
   function decodeJWT(token) {

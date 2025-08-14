@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const AllUsers = () => {
 
-  const URI = 'https://mapper-11ly.onrender.com'
+  const URI = 'https://rideshare-backend-0tag.onrender.com'
 
   const navigate = useNavigate()
 

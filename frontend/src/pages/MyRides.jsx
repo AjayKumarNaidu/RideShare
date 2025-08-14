@@ -4,7 +4,7 @@ import axios from 'axios'
 
 const MyRides = () => {
 
-  const URI = 'https://mapper-11ly.onrender.com'
+  const URI = 'https://rideshare-backend-0tag.onrender.com'
   const navigate = useNavigate();
 
   const [currentUser,setCurrentUser] = useState()

@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser'
 
 const Register = () => {
 
-  const URI = 'https://mapper-11ly.onrender.com'
+  const URI = 'https://rideshare-backend-0tag.onrender.com'
   
   //navigation to use routes
   const navigate = useNavigate()
